@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
-	"appid": "touristappid",
-	"projectname": "wzq",
+	"appid": "wx451b074d7276b6bd",
+	"projectname": "fiveBattle",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
