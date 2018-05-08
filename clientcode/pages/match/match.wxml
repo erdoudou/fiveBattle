@@ -1,0 +1,26 @@
+<!--home.wxml-->
+<view class="container">
+<view class="row">
+ <view class="userinfo1">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 自动登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> 
+    <text class='pk_txt'>pk</text>
+  <view>
+  </view>
+   <view class="userinfo" wx:if="{{flag ? true : false}}">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 自动登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{image2}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo2}}</text>
+    </block>
+  </view>
+</view>
+ 
+  <view class="startgame" wx:if="{{isRoomer =='true' }}">
+    <button bindtap='goIntoGame'>开始游戏</button>
+  </view>
+</view>

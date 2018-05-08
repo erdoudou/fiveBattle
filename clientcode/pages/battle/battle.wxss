@@ -1,0 +1,7 @@
+/* pages/battle/battle.wxss */
+#canvas{
+  width:20rem;
+  /* height: auto; */
+  height: 20rem;
+  background-color: red;
+}

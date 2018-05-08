@@ -1,0 +1,6 @@
+<!--roomlist.wxml-->
+<view class="container">
+  <view wx:key="*this" wx:for="{{button}}">
+    <button class="room_but" bindtap='goIntoGame' data-name="{{item}}">{{item}}</button>
+  </view>
+</view>

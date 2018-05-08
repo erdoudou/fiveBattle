@@ -1,0 +1,23 @@
+<!--home.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 自动登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class="startgame">
+    <button bindtap='startGame'>开始游戏</button>
+  </view>
+
+  <view class="getroomlist">
+    <button bindtap='goIntoGame'>进入游戏</button>
+  </view>
+
+   
+  <view class="getroomlist">
+    <button bindtap='goIntoBattle'>与机大战</button>
+  </view>
+</view>

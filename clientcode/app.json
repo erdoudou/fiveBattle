@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/wuziqi/wuziqi",
+    "pages/home/home",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/roomlist/roomlist",
+    "pages/match/match",
+    "pages/battle/battle",
+    "pages/end/end"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "五子落",
+    "navigationBarTextStyle":"black"
+  }
+}

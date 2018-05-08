@@ -1,0 +1,3 @@
+<!--pages/battle/battle.wxml-->
+<text>人机对决</text>
+<canvas canvas-id='canvas' id="canvas" bindtap='click1'></canvas>

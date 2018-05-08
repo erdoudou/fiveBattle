@@ -1,0 +1,3 @@
+<!--pages/wuziqi/wuziqi.wxml-->
+<text class='battle_txt'>开始战斗</text>
+<canvas canvas-id='canvas' id="canvas" bindtap='click1'></canvas>

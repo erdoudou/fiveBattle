@@ -1,0 +1,4 @@
+/**roomlist.wxss**/
+.room_but {
+  width: 320px;
+}
